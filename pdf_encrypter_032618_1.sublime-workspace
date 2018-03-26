@@ -1,0 +1,1148 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"encr",
+				"encryptedminutes.pdf"
+			],
+			[
+				"minute",
+				"minutesFile"
+			],
+			[
+				"minu",
+				"minutesFirstPage"
+			],
+			[
+				"mee",
+				"meetingminutes.pdf"
+			],
+			[
+				"get",
+				"getPage"
+			],
+			[
+				"pdf",
+				"pdfReader"
+			],
+			[
+				"try",
+				"try\tTry/Except/Else"
+			],
+			[
+				"guess",
+				"Guess"
+			],
+			[
+				"a",
+				"a_kilobyte_is_1024_bytes"
+			],
+			[
+				"size_",
+				"size_hint"
+			],
+			[
+				"size_hint",
+				"size_hint_y"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"pd_",
+				"pd_frame"
+			],
+			[
+				"hand",
+				"hand_output"
+			],
+			[
+				"name",
+				"names"
+			],
+			[
+				"resu",
+				"result_set"
+			],
+			[
+				"hm",
+				"hm_frame"
+			],
+			[
+				"tet",
+				"textvariable"
+			],
+			[
+				"word_",
+				"word_output"
+			],
+			[
+				"json",
+				"json_objects"
+			],
+			[
+				"rand",
+				"randUser"
+			],
+			[
+				"spam",
+				"spamMsg"
+			],
+			[
+				"send",
+				"sendMail"
+			],
+			[
+				"smtp",
+				"smtpServer"
+			],
+			[
+				"smt",
+				"smtpServer"
+			],
+			[
+				"full",
+				"fullURL"
+			],
+			[
+				"urlB",
+				"urlBase"
+			],
+			[
+				"urlBase",
+				"urlBase2"
+			],
+			[
+				"url",
+				"urlBase"
+			],
+			[
+				"Cook",
+				"cookieBox"
+			],
+			[
+				"page",
+				"page_source"
+			],
+			[
+				"twee",
+				"tweets"
+			],
+			[
+				"twit",
+				"twitter_locate"
+			],
+			[
+				"city",
+				"cityFile"
+			],
+			[
+				"loc",
+				"locCnt"
+			],
+			[
+				"tweet",
+				"tweetsText"
+			],
+			[
+				"ne",
+				"new_result"
+			],
+			[
+				"query",
+				"query_twitter"
+			],
+			[
+				"search",
+				"search_term"
+			],
+			[
+				"filen",
+				"filenameEndingUTM"
+			],
+			[
+				"cook",
+				"cookie_jar"
+			],
+			[
+				"cookie",
+				"cookielib"
+			],
+			[
+				"serv",
+				"services"
+			],
+			[
+				"wifi",
+				"wifiPrint"
+			],
+			[
+				"Scr",
+				"Screenshot 2017-04-04 21.51.02.png\tw:394 h:146"
+			],
+			[
+				"src",
+				"srcSpoof"
+			],
+			[
+				"seq",
+				"seqNum"
+			],
+			[
+				"s",
+				"Screenshot 2017-03-29 10.28.55.png\tw:485 h:418"
+			],
+			[
+				"ttl",
+				"ttlValues"
+			],
+			[
+				"pcap",
+				"pcap"
+			],
+			[
+				"pkt",
+				"pktCount"
+			],
+			[
+				"interc",
+				"interceptThread"
+			],
+			[
+				"inje",
+				"injectCmd"
+			],
+			[
+				"Dot11",
+				"Dot11ProbeResp"
+			],
+			[
+				"sniff",
+				"sniffProbe"
+			],
+			[
+				"first",
+				"first_dice"
+			],
+			[
+				"final",
+				"final_result"
+			],
+			[
+				"dice5",
+				"dice5_check"
+			],
+			[
+				"group",
+				"groupby"
+			],
+			[
+				"letter",
+				"letter_guess"
+			],
+			[
+				"result",
+				"result_text"
+			],
+			[
+				"result_",
+				"result_text"
+			],
+			[
+				"graphic",
+				"graphic_set"
+			],
+			[
+				"dst",
+				"dstKML"
+			],
+			[
+				"kml",
+				"kmlPts"
+			],
+			[
+				"unso",
+				"unsorted.apps"
+			],
+			[
+				"print",
+				"printRecord"
+			],
+			[
+				"iphone",
+				"iphoneDB"
+			],
+			[
+				"places",
+				"placesDB"
+			],
+			[
+				"cooki",
+				"cookiesDB"
+			],
+			[
+				"downlo",
+				"downloadDB"
+			],
+			[
+				"path",
+				"pathName"
+			],
+			[
+				"skype",
+				"skypeDB"
+			],
+			[
+				"skyp",
+				"skypeDB"
+			],
+			[
+				"imgF",
+				"imgFileName"
+			],
+			[
+				"imgFil",
+				"imgFile"
+			],
+			[
+				"imgFile",
+				"imgFileName"
+			],
+			[
+				"Beaut",
+				"BeautifulSoup"
+			],
+			[
+				"return",
+				"returnDir"
+			],
+			[
+				"sid",
+				"sid2user"
+			],
+			[
+				"img",
+				"img\timg"
+			],
+			[
+				"wigle",
+				"wiglePrint"
+			],
+			[
+				"passw",
+				"passwdFile"
+			],
+			[
+				"tgt",
+				"tgtHost"
+			],
+			[
+				"tgtH",
+				"tgtHosts"
+			],
+			[
+				"tg",
+				"tgtHost"
+			],
+			[
+				"brut",
+				"bruteLogin"
+			],
+			[
+				"pass",
+				"passwdFile"
+			],
+			[
+				"inject",
+				"injectPage"
+			],
+			[
+				"user",
+				"userName"
+			],
+			[
+				"ftp",
+				"ftplib"
+			],
+			[
+				"ret",
+				"retList"
+			],
+			[
+				"botnet",
+				"botnetCommand"
+			],
+			[
+				"connection",
+				"connection_lock"
+			],
+			[
+				"ssh",
+				"ssh_newkey"
+			],
+			[
+				"tgtPort",
+				"tgtPorts"
+			],
+			[
+				"conn",
+				"connSkt"
+			],
+			[
+				"add",
+				"add_option"
+			],
+			[
+				"extra",
+				"extractFile"
+			],
+			[
+				"crypt",
+				"cryptWord"
+			],
+			[
+				"has",
+				"hashlib"
+			],
+			[
+				"text",
+				"textvariable"
+			],
+			[
+				"computer",
+				"computer_score"
+			],
+			[
+				"coputer",
+				"computer_choice"
+			],
+			[
+				"player",
+				"player_score"
+			],
+			[
+				"rps",
+				"rps_frame"
+			],
+			[
+				"computer_",
+				"computer_score"
+			],
+			[
+				"player_",
+				"player_score"
+			],
+			[
+				"new",
+				"new_score"
+			],
+			[
+				"resul",
+				"result"
+			],
+			[
+				"dice",
+				"dice_changes"
+			],
+			[
+				"stra",
+				"straight2"
+			],
+			[
+				"straight",
+				"straight1"
+			],
+			[
+				"gr",
+				"groupby"
+			],
+			[
+				"iter",
+				"iterations-1"
+			],
+			[
+				"iterat",
+				"iterations"
+			],
+			[
+				"iterations",
+				"iterations-1"
+			],
+			[
+				"roll",
+				"roll_number"
+			],
+			[
+				"play_",
+				"player_score"
+			],
+			[
+				"letters",
+				"letters_tried"
+			],
+			[
+				"impor",
+				"Import"
+			],
+			[
+				"inventory",
+				"inventory_sys1"
+			],
+			[
+				"charact",
+				"character_sys1"
+			],
+			[
+				"action_",
+				"action_result_3"
+			],
+			[
+				"ability",
+				"ability_scores"
+			],
+			[
+				"accept",
+				"accept_selections_1"
+			],
+			[
+				"secret_saf",
+				"secret_safe_1_break_open"
+			],
+			[
+				"Game",
+				"GameEngine"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "setup.py",
+			"settings":
+			{
+				"buffer_size": 381,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 324.0,
+		"last_filter": "synt",
+		"selected_items":
+		[
+			[
+				"synt",
+				"Set Syntax: Python"
+			],
+			[
+				"pandoc",
+				"Pandoc"
+			],
+			[
+				"syntax",
+				"Set Syntax: Python"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pand",
+				"Pandoc"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"synta",
+				"Set Syntax: Python"
+			],
+			[
+				"syntaxht",
+				"Set Syntax: HTML"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"syntax multi",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"syntax ",
+				"Set Syntax: Python"
+			],
+			[
+				"syntp",
+				"Set Syntax: Python"
+			],
+			[
+				"set syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View In Browser"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 568.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sunnyair/Dropbox/python_projects/pdf_encrypter_032618_1"
+	],
+	"file_history":
+	[
+		"/Users/sunnyair/Box Sync/penetration-testing/pen_test_notes_092517/encrypt_pdf_ex_032318_1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/auto_bore_py_020518_1/example.html",
+		"/Users/sunnyair/Dropbox/Python Programming/auto_bore_py_020518_1/table_printer_020618_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/auto_bore_py_020518_1/testData_020918_1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/auto_bore_py_020518_1/madlibs_data_021218_1_final.txt",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/regex-py3-090317-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/dictionaries-063016-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/modules-classes-objects-070416-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/object-oriented-070716-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/object-oriented-071416-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/object-oriented-071416-2.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/object-oriented-090716-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/objects-101216-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/import-python-files-091116-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/unix-pass-crack-022417/docs/scratch.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/py-general-022417-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/ftp_python_031117-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/text-file-manipulation-091316-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/functions-091316-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/adv_user_input_110617_1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/package_py_lib_092217_1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/oneline_091817_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/classes-092616-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/code-style-092616-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/commenting-092616-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/project-skeleton-092616-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/methods-python-091416-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/loops-lists-091416-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/plural6_rules_090717_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/alphametic_puzzle_090717_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/lists-python-091516-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/formatters-091316-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/keywords-symbols-091416-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/debugging-091416-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/logic-python-091416-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/escape-sequences-091416-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/input-data-091316-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/error-messages-091416-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/automated-testing-093016-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/sys-module-022417-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/os-module-022417-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/permutation_090817_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/closures-generators-090617-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/exec-external-prog-051817-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/pip-notes-031617-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/pip3_notes_020518_1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/virtualenv-031617-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/web-recon-py-040817/wr/anonBrowser.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/urllib2-mod-041517-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/requests-mod-041517-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/GRAB-module-041417-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/beautiful-soup-050517-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/Learn-Python-Hard-Way-3e/ex48/tests/ex48_tests.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/json_serialize_091917_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/chardet_distutils_092217_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/dip3-090217-p34.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/plural4-rules-090617-1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/plural4_rules_090617_2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/dip3-090617-p165.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/roman_utest_090817_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/customerserializer091917v1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/dip3_090617_p167.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/resources/maca.log",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/maca.log",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/roman8.py",
+		"/Users/sunnyair/Dropbox/Python Programming/dive-into-python3-090217/dip3_090717_p171.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/breakout-kivy-050217/bkan/bkan1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/breakout-kivy-050217/docs/scratch.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/py-hack-notes-022517-1/twitter-api-stream-050517-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/py-hack-notes-022517-1/twitter-api-041417-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/tkinter-mod-042517-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/google-custom-search-api-041617-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/py-hack-notes-022517-1/twitter-oauth-042717-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-notes-051416/kivy-mod-050217-1.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/pygui-022317/pygui/rockpaperscissor.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/web-recon-py-040817/wr/userAgentList1.txt",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/pygui-022317/docs/scratch.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/pygui-022317/pygui/pokerdice2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/pygui-022317/pygui/pokerdice.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/pygui-022317/pygui/hangman2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/pygui-022317/pygui/main2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/pygui-022317/pygui/main.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/web-recon-py-040817/scrapeTwitter1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-ug-2015/pygui-022317/pygui/hangman3.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/web-recon-py-040817/wr/wrp_5.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/web-recon-py-040817/wr/wrp_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/CH6/7-imageMirror.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/blue_stalk_8.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/blue_stalk_7.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/blue_stalk_6.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/blue_stalk_5.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/blue_stalk_4.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/blue_stalk_3.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/blue_stalk_2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/blue_stalk_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/foil_ids_3.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/foil_ids_2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/foil_ids_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/synflood_4.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/synflood_3.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/synflood_2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/synflood_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/confickerflux_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/fastflux_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/ttl_parse_3.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/ttl_parse_2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/ttl_parse_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/loic-disc-tools_4.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/loic-disc-tools_3.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/loic-disc-tools_2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/loic-disc-tools_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/encode-fix-033017-1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/docs/scratch.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/fastFlux.pcap",
+		"/usr/local/lib/python2.7/site-packages/scapy/utils.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/uav_inter_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/uav_inter_2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/firecatcher_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/firecatcher_2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/dup.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/wm/trace-locales-032617-3.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/wireless-mayhem-032517/docs/scratch.md",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/nta_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/dpkt_parse_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/dpkt_parse_2.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/dpkt_parse_3.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/py_gmap_1.py",
+		"/Users/sunnyair/Dropbox/Python Programming/python-for-hacking/violent-py-cookbook-2012/network-traffic-031917/nta/wireless_capture_1.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "setup.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 381,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								381,
+								381
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": -1,
+								"modified": true,
+								"selection": true,
+								"status": -1,
+								"syntax": "python"
+							},
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										380,
+										381
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										371,
+										372
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pdf_encrypter_032618_1.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Head First JS 2014/Run Through 1/ch10/plane1.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"~/Box Sync/code-gale-online/html-css-samurai/html-css-samurai-040616-1.sublime-project"
+			],
+			[
+				"mark",
+				"~/Dropbox/marketing-notes-122815/marketing-notes-122815.sublime-project"
+			],
+			[
+				"constr",
+				"~/Dropbox/construction-notes-112415/construction-notes-122415.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
