@@ -130,6 +130,37 @@ def analyzeAllFiles ():
 
 # encrypt the pdfs
 
+def pdf_encryptor(file_item,pwd):
+	# this is a function to encrypt a single file that is passed to it
+	# it uses the password passed to it in the 2nd arg
+	
+	pdfFile = open(file_item,'rb') # open in binary mode
+	pdfReader = PyPDF2.PdfFileReader(pdfFile)
+	pdfWriter = PyPDF2.PdfFileWriter() # temporary new file to hold gathered data
+
+	for pageNum in range(pdfReader.numPages):
+		pdfWriter.addPage( pdfReader.getPage(pageNum) )
+
+	pdfWriter.encrypt(pwd) # encrypted with supplied password
+
+	# create new filename 
+	# where `file_item` is already a path
+	# using os.path.basename(file_item) we get only the file's name
+	new_filename = os.path.basename(file_item) +'_encrypted.pdf'
+
+	resultPdf = open(new_filename,'wb')
+	pdfWriter.write(resultPdf) # the resulting save will be in current working directory
+	resultPdf.close()
+
+def encrypt_pdfs(file_path_list):
+	# this function runs a single file encryption function over files in a list
+	# loop through the file_path_list and encrypt each file with the password
+	
+	for file_item in file_path_list:
+		pass
+
+	# save the file to new destination folder
+
 #####################################
 # END ENCRYPT
 #####################################
