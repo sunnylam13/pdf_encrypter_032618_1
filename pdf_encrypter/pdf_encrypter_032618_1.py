@@ -147,9 +147,13 @@ def pdf_encryptor(file_item,pwd):
 	# where `file_item` is already a path
 	# using os.path.basename(file_item) we get only the file's name
 	new_filename = os.path.basename(file_item) +'_encrypted.pdf'
+	# save the file to new destination folder
+	new_filepath = "./encrypted_f/"
+	final_filename_path = new_filepath + new_filename
 
-	resultPdf = open(new_filename,'wb')
+	resultPdf = open(final_filename_path,'wb')
 	pdfWriter.write(resultPdf) # the resulting save will be in current working directory
+	logging.debug('Encrypted file %s has been written and saved.' % (new_filename) )
 	resultPdf.close()
 
 def encrypt_pdfs(file_path_list):
@@ -159,7 +163,7 @@ def encrypt_pdfs(file_path_list):
 	for file_item in file_path_list:
 		pdf_encryptor(file_item,user_pwd)
 
-	# save the file to new destination folder
+	
 
 #####################################
 # END ENCRYPT
@@ -193,6 +197,8 @@ def encrypt_pdfs(file_path_list):
 #####################################
 
 analyzeAllFiles()
+
+encrypt_pdfs(file_path_list)
 
 #####################################
 # END EXECUTION
