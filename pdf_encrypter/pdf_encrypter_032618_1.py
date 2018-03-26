@@ -71,10 +71,6 @@ def scanFolder(foldername_path):
 	# as we get deeper and deeper into subfolders it should add onto the folder's path string that we pass to it so accuracy should be maintained
 
 	dirs = os.listdir(foldername_path) # list all files of any kind (i.e. all file and folder names)
-	# absPath = dirPath
-	# absPath = os.path.dirname(foldername_path) # returns the directory path except basename to the foldername_path
-
-	# folder_path_list = [] # a list to hold all finalized folder paths (not folder names)
 
 	for file in dirs:
 		# new_path = os.path.join(absPath,file) # creates a path to the file/folder
