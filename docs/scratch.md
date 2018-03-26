@@ -18,3 +18,7 @@ which creates a decrypted copy of pdf using a provided password
 
 if password is wrong, program should print message to user and move onto the next pdf
 
+## Monday, March 26, 2018 7:16 PM
+
+[How can I create a directory if it does not exist?](https://stackoverflow.com/questions/273192/how-can-i-create-a-directory-if-it-does-not-exist)
+
