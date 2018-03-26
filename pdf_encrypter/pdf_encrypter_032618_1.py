@@ -157,7 +157,7 @@ def encrypt_pdfs(file_path_list):
 	# loop through the file_path_list and encrypt each file with the password
 	
 	for file_item in file_path_list:
-		pass
+		pdf_encryptor(file_item,user_pwd)
 
 	# save the file to new destination folder
 
@@ -174,6 +174,17 @@ def encrypt_pdfs(file_path_list):
 
 #####################################
 # END DECRYPT
+#####################################
+
+
+#####################################
+# DELETE ORIGINAL FILE
+#####################################
+
+
+
+#####################################
+# END DELETE ORIGINAL FILE
 #####################################
 
 
