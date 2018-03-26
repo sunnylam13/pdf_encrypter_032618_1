@@ -104,8 +104,8 @@ def analyzeAllFiles ():
 	# run an initial scan of the upper level main folder tree
 	# find subfolders
 	# find matching files
-	scanFolder(user_folder_input)
-	scanFile(user_folder_input,file_type_regex1)
+	scanFolder(user_folderpath)
+	scanFile(user_folderpath,file_type_regex1)
 
 	# then scan all the sub folders by cycling through folder_path_list until no more subfolders are added
 	# this should keep going until no more subfolders are analyzed
@@ -150,7 +150,7 @@ def analyzeAllFiles ():
 # EXECUTION
 #####################################
 
-
+analyzeAllFiles()
 
 #####################################
 # END EXECUTION
