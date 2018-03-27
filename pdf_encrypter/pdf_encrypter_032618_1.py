@@ -194,7 +194,7 @@ def pdf_decryptor_tester(file_item,pwd):
 	pdf_file = open(file_item,'rb') # open in read binary mode
 
 	pdfReader = PyPDF2.PdfFileReader( pdf_file )
-	logging.debug('PDF file opened is:  %s' % os.path.basename(pdf_file) )
+	logging.debug('PDF file opened is:  %s' % os.path.basename(file_item) )
 
 	# logging.debug('Is PDF file encrypted?')
 	# logging.debug(pdfReader.isEncrypted) # True/False - this should read as True before decryption
