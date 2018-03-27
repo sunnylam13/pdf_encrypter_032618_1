@@ -33,7 +33,7 @@ logging.debug('The password to encrypt with is:  %s' % (user_pwd) )
 # GLOBAL VARIABLES
 #####################################
 
-encrypt_output_folder = "./encrypted_f/"
+encrypt_output_folder = "./encrypted_f/" # this should lead to a folder within cwd of this program
 
 #####################################
 # END GLOBAL VARIABLES
