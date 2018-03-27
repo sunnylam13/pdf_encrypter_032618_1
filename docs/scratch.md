@@ -35,4 +35,15 @@ PyPDF `decrypt()` only returns 0 if the password doesn't work or 1 if it does...
 
 [how to delete a file or folder](https://stackoverflow.com/questions/6996603/how-to-delete-a-file-or-folder)
 
+## Tuesday, March 27, 2018 11:00 AM
+
+for the decryption program
+
+the folder is:
+
+	pdf_encrypter/encrypted_f
+
+since it's in the same folder as the execution program, the path is:
+
+	./encrypted_f
 
