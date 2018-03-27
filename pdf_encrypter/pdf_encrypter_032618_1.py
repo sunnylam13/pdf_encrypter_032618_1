@@ -221,10 +221,12 @@ def decrypt_test_pdfs(file_path_list,pwd):
 
 def delete_file(file_name):
 	os.remove(file_name)
+	logging.debug("Deleted file:  %s" % os.path.basename(file_name) )
 
 def delete_files_mass(file_path_list):
 	for file_name in file_path_list:
 		delete_file(file_name)
+	logging.debug("All files deleted.")
 
 #####################################
 # END DELETE ORIGINAL FILE
