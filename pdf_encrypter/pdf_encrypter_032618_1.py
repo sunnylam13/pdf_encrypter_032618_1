@@ -96,7 +96,7 @@ def scanFile(foldername_path,regex):
 		else:
 			continue # otherwise skip and keep going
 
-def analyzeAllFiles ():
+def analyzeAllFiles (user_folderpath,file_type_regex1):
 	# run an initial scan of the upper level main folder tree
 	# find subfolders
 	# find matching files
@@ -213,7 +213,7 @@ def pdf_decryptor(file_item,pwd):
 # EXECUTION
 #####################################
 
-analyzeAllFiles()
+analyzeAllFiles(user_folderpath,file_type_regex1)
 
 encrypt_pdfs(file_path_list)
 
