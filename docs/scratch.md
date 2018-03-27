@@ -30,3 +30,9 @@ PyPDF `decrypt()` only returns 0 if the password doesn't work or 1 if it does...
 
 [The PdfFileReader Class](https://pythonhosted.org/PyPDF2/PdfFileReader.html)
 
+> isEncrypted
+> Read-only boolean property showing whether this PDF file is encrypted. Note that this property, if true, will remain true even after the decrypt() method is called.
+
+[how to delete a file or folder](https://stackoverflow.com/questions/6996603/how-to-delete-a-file-or-folder)
+
+

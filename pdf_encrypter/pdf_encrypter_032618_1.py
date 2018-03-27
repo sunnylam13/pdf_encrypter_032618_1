@@ -199,17 +199,9 @@ def pdf_decryptor_tester(file_item,pwd):
 	# logging.debug('Is PDF file encrypted?')
 	# logging.debug(pdfReader.isEncrypted) # True/False - this should read as True before decryption
 
-	# decrypt the pdf
-	decryptedPDFTemp = pdfReader.decrypt(pwd)
-	logging.debug("File decrypted.")
-
-	logging.debug("Trying to get page n = 0 to test password works...")
-	if decryptedPDFTemp.getPage(0): # if first page is accessed
-		logging.debug("We accessed the first page of document.  That means password works.")
-	# logging.debug(pdfReader.getPage(0)) # this can only occur after decryption otherwise the error breaks the loop
-
-	# logging.debug('Is PDF file encrypted?')
-	# logging.debug(pdfReader.isEncrypted) # True/False, we want False at this point
+	# check if the password will decrypt the file
+	if ( pdfReader.decrypt(pwd) ) == 1 or ( pdfReader.decrypt(pwd) == 2 ): # pdfReader.decrypt(pwd) returns an integer
+		logging.debug("The password matches and works.")
 
 def decrypt_test_pdfs(file_path_list,pwd):
 	# this function runs a single file decryption tester function over files in a list to test that the file is encrypted correctly
@@ -227,7 +219,12 @@ def decrypt_test_pdfs(file_path_list,pwd):
 # DELETE ORIGINAL FILE
 #####################################
 
+def delete_file(file_name):
+	os.remove(file_name)
 
+def delete_files_mass(file_path_list):
+	for file_name in file_path_list:
+		delete_file(file_name)
 
 #####################################
 # END DELETE ORIGINAL FILE
@@ -244,9 +241,15 @@ analyzeAllFiles(user_folderpath,file_type_regex1)
 # encrypt files
 encrypt_pdfs(file_path_list,user_pwd)
 
-# reset file_path_list to an empty list at this point
+# save pre-encrypted files to another list
+# this list will be used for deleting the original files
+pre_encrypt_file_list = file_path_list
+
+# reset both folder_path_list and file_path_list to an empty list at this point
 # if you don't you'll mix with pre-encrypted file paths
+# you'll throw an error because you try to decrypt unencrypted files
 # this has to happen before you run analyzeAllFiles() again
+folder_path_list = []
 file_path_list = []
 
 # find all encrypted files
@@ -254,6 +257,9 @@ analyzeAllFiles(encrypt_output_folder,file_type_regex1)
 
 # double check the files are all encrypted correctly
 decrypt_test_pdfs(file_path_list,user_pwd)
+
+# delete original, unencrypted files
+delete_files_mass(pre_encrypt_file_list)
 
 #####################################
 # END EXECUTION
