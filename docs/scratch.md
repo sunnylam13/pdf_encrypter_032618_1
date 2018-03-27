@@ -73,3 +73,36 @@ For the decryption program the problem is that PyPDF2 `decrypt()` method does no
 
 It only returns an integer and not a decrypted file object meaning that we need another module to run the decryption with the password...
 
+## Tuesday, March 27, 2018 3:47 PM
+
+[PyPDF 2 Decrypt Not Working](https://stackoverflow.com/questions/26242952/pypdf-2-decrypt-not-working)
+
+[Query - is there a way to bypass security restrictions on a pdf? #53](https://github.com/mstamy2/PyPDF2/issues/53)
+
+> I used qpdf and the following hack-y code to decrypt the documents if PyPDF2 fails at decryption.
+
+	import os
+	import PyPDF2
+	from PyPDF2 import PdfFileWriter, PdfFileReader
+	filename=raw_input('\nFilename:')
+
+	fp = open(filename)
+	pdfFile = PdfFileReader(fp)
+	if pdfFile.isEncrypted:
+	    try:
+	        pdfFile.decrypt('')
+	        print 'File Decrypted (PyPDF2)'
+	    except:
+	        command="cp "+filename+" temp.pdf; qpdf --password='' --decrypt temp.pdf "+filename
+	        os.system(command)
+	        print 'File Decrypted (qpdf)'
+	        #re-open the decrypted file
+	        fp = open(filename)
+	        pdfFile = PdfFileReader(fp)
+	else:
+	    print 'File Not Encrypted'
+	#dostuff with pdfFile here
+
+> Be careful not to accept any user input for the filename for your application using this code, if you do, be sure to sanitize it before os.system executes it.
+
+
