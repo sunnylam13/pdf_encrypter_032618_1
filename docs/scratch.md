@@ -22,3 +22,11 @@ if password is wrong, program should print message to user and move onto the nex
 
 [How can I create a directory if it does not exist?](https://stackoverflow.com/questions/273192/how-can-i-create-a-directory-if-it-does-not-exist)
 
+## Monday, March 26, 2018 9:32 PM
+
+PyPDF `decrypt()` only returns 0 if the password doesn't work or 1 if it does...
+
+> 0 if the password failed, 1 if the password matched the user password, and 2 if the password matched the owner password.
+
+[The PdfFileReader Class](https://pythonhosted.org/PyPDF2/PdfFileReader.html)
+

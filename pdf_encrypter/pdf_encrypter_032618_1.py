@@ -194,19 +194,22 @@ def pdf_decryptor_tester(file_item,pwd):
 	pdf_file = open(file_item,'rb') # open in read binary mode
 
 	pdfReader = PyPDF2.PdfFileReader( pdf_file )
-	logging.debug('PDF file opened is:  %s' % os.path.basename(file_item) )
+	logging.debug('PDF file to be decrypted is:  %s' % os.path.basename(file_item) )
 
 	# logging.debug('Is PDF file encrypted?')
 	# logging.debug(pdfReader.isEncrypted) # True/False - this should read as True before decryption
 
 	# decrypt the pdf
-	pdfReader.decrypt(pwd)
+	decryptedPDFTemp = pdfReader.decrypt(pwd)
+	logging.debug("File decrypted.")
 
-	# logging.debug("Trying to get page n = 0")
+	logging.debug("Trying to get page n = 0 to test password works...")
+	if decryptedPDFTemp.getPage(0): # if first page is accessed
+		logging.debug("We accessed the first page of document.  That means password works.")
 	# logging.debug(pdfReader.getPage(0)) # this can only occur after decryption otherwise the error breaks the loop
 
-	logging.debug('Is PDF file encrypted?')
-	logging.debug(pdfReader.isEncrypted) # True/False, we want False at this point
+	# logging.debug('Is PDF file encrypted?')
+	# logging.debug(pdfReader.isEncrypted) # True/False, we want False at this point
 
 def decrypt_test_pdfs(file_path_list,pwd):
 	# this function runs a single file decryption tester function over files in a list to test that the file is encrypted correctly
