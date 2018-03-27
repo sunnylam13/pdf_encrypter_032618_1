@@ -105,4 +105,8 @@ It only returns an integer and not a decrypted file object meaning that we need 
 
 > Be careful not to accept any user input for the filename for your application using this code, if you do, be sure to sanitize it before os.system executes it.
 
+search terms:
+
+* pypdf2 decrypt file
+
 
