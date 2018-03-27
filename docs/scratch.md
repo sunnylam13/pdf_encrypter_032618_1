@@ -47,3 +47,29 @@ since it's in the same folder as the execution program, the path is:
 
 	./encrypted_f
 
+## Tuesday, March 27, 2018 11:25 AM
+
+For the decryption program the problem is that PyPDF2 `decrypt()` method does not actually decrypt - it only tells you if the password works.  
+
+	MacBook-Air:pdf_encrypter sunnyair$ python3 pdf_decrypter_032618_1.py "pdf_encrypter/encrypted_f" "yuhelia"
+	 2018-03-27 11:24:03,806 - DEBUG - The target folder is:  pdf_encrypter/encrypted_f
+	 2018-03-27 11:24:03,806 - DEBUG - The password to encrypt with is:  yuhelia
+	 2018-03-27 11:24:03,807 - DEBUG - The folder_path_list is:
+	 2018-03-27 11:24:03,808 - DEBUG - []
+	 2018-03-27 11:24:03,808 - DEBUG - The file_path_list is:
+	 2018-03-27 11:24:03,808 - DEBUG - ['./encrypted_f/poetry1.pdf_encrypted.pdf', './encrypted_f/poetry2.pdf_encrypted.pdf', './encrypted_f/poetry3.pdf_encrypted.pdf', './encrypted_f/meetingminutes2.pdf_encrypted.pdf', './encrypted_f/combinedminutes.pdf_encrypted.pdf', './encrypted_f/meetingminutes.pdf_encrypted.pdf']
+	 2018-03-27 11:24:03,809 - DEBUG - PDF file to be decrypted is:  poetry1.pdf_encrypted.pdf
+	 2018-03-27 11:24:03,809 - DEBUG - Decrypted PDF file name and path:  ./decrypted_f/poetry1.pdf
+	Traceback (most recent call last):
+	  File "pdf_decrypter_032618_1.py", line 210, in <module>
+	    decrypt_test_pdfs(file_path_list,user_pwd)
+	  File "pdf_decrypter_032618_1.py", line 195, in decrypt_test_pdfs
+	    pdf_decryptor(file_item,pwd)
+	  File "pdf_decrypter_032618_1.py", line 182, in pdf_decryptor
+	    add_pages_2_pdf(decrypted_file,pdfWriter) # read decrypted file, copy contents to new file
+	  File "pdf_decrypter_032618_1.py", line 178, in add_pages_2_pdf
+	    for pageNum in range(pdfReaderObj.numPages):
+	AttributeError: 'int' object has no attribute 'numPages'
+
+It only returns an integer and not a decrypted file object meaning that we need another module to run the decryption with the password...
+
