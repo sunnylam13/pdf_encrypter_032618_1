@@ -166,11 +166,13 @@ def pdf_decryptor(file_item,pwd):
 	new_filename = encrypt_file_ext_regex1.sub('',os.path.basename(file_item) ) # takes filename path and strips the extension
 	new_filename_path = os.path.join(decrypt_output_folder,new_filename) # add output folder to new basename to create final output file path
 
+	logging.debug('Decrypted PDF file name and path:  %s' % (new_filename_path) )
+
 	# actually decrypt file
 	decrypted_file = pdfReader.decrypt(pwd)
 
 	# copy decrypted file contents to new file
-	pdfWriter = PyPDF2.PdfFileWriter() # create temporary holding object
+	pdfWriter = PyPDF2.PdfFileWriter() # create temporary holding object for pages copied from decrypted pdf
 
 	def add_pages_2_pdf(pdfReaderObj,pdfWriteObj):
 		for pageNum in range(pdfReaderObj.numPages):
