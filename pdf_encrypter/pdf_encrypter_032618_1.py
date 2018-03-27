@@ -241,12 +241,13 @@ analyzeAllFiles(user_folderpath,file_type_regex1)
 # encrypt files
 encrypt_pdfs(file_path_list,user_pwd)
 
-# find all encrypted files
-analyzeAllFiles(encrypt_output_folder,file_type_regex1)
-
 # reset file_path_list to an empty list at this point
 # if you don't you'll mix with pre-encrypted file paths
+# this has to happen before you run analyzeAllFiles() again
 file_path_list = []
+
+# find all encrypted files
+analyzeAllFiles(encrypt_output_folder,file_type_regex1)
 
 # double check the files are all encrypted correctly
 decrypt_test_pdfs(file_path_list,user_pwd)
