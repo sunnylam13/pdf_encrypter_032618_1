@@ -176,6 +176,23 @@ def encrypt_pdfs(file_path_list):
 
 # double check encryption
 
+def pdf_decryptor(file_item,pwd):
+	# function decrypts a single file that is passed to it
+	
+	pdf_file = open(file_item,'rb') # open in read binary mode
+
+	pdfReader = PyPDF2.PdfFileReader( pdf_file )
+	logging.debug('PDF file opened is:  %s' % os.path.basename(pdf_file) )
+
+	logging.debug('Is PDF file encrypted?')
+	logging.debug(pdfReader.isEncrypted) # True/False
+
+	# decrypt the pdf
+	pdfReader.decrypt('rosebud')
+
+	logging.debug("Trying to get page n = 0")
+	logging.debug(pdfReader.getPage(0)) # this can only occur after decryption otherwise the error breaks the loop
+
 #####################################
 # END DECRYPT
 #####################################
