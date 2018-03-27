@@ -167,12 +167,12 @@ def pdf_encryptor(file_item,pwd):
 	logging.debug('Encrypted file %s has been written and saved.' % (new_filename) )
 	resultPdf.close()
 
-def encrypt_pdfs(file_path_list):
+def encrypt_pdfs(file_path_list,pwd):
 	# this function runs a single file encryption function over files in a list
 	# loop through the file_path_list and encrypt each file with the password
 	
 	for file_item in file_path_list:
-		pdf_encryptor(file_item,user_pwd)
+		pdf_encryptor(file_item,pwd)
 
 	
 
@@ -208,6 +208,13 @@ def pdf_decryptor_tester(file_item,pwd):
 	logging.debug('Is PDF file encrypted?')
 	logging.debug(pdfReader.isEncrypted) # True/False, we want False at this point
 
+def decrypt_test_pdfs(file_path_list,pwd):
+	# this function runs a single file decryption tester function over files in a list to test that the file is encrypted correctly
+	# loop through the file_path_list and encrypt each file with the password
+	
+	for file_item in file_path_list:
+		pdf_decryptor_tester(file_item,pwd)
+
 #####################################
 # END DECRYPT
 #####################################
@@ -228,9 +235,21 @@ def pdf_decryptor_tester(file_item,pwd):
 # EXECUTION
 #####################################
 
+# find all unencrypted pdfs
 analyzeAllFiles(user_folderpath,file_type_regex1)
 
-encrypt_pdfs(file_path_list)
+# encrypt files
+encrypt_pdfs(file_path_list,user_pwd)
+
+# find all encrypted files
+analyzeAllFiles(encrypt_output_folder,file_type_regex1)
+
+# reset file_path_list to an empty list at this point
+# if you don't you'll mix with pre-encrypted file paths
+file_path_list = []
+
+# double check the files are all encrypted correctly
+decrypt_test_pdfs(file_path_list,user_pwd)
 
 #####################################
 # END EXECUTION
