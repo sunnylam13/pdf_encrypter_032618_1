@@ -30,6 +30,17 @@ logging.debug('The password to encrypt with is:  %s' % (user_pwd) )
 
 
 #####################################
+# GLOBAL VARIABLES
+#####################################
+
+encrypt_output_folder = "./encrypted_f/"
+
+#####################################
+# END GLOBAL VARIABLES
+#####################################
+
+
+#####################################
 # REGEX
 #####################################
 
@@ -140,7 +151,7 @@ def pdf_encryptor(file_item,pwd):
 	pdfWriter.encrypt(pwd) # encrypted with supplied password
 
 	# save the file to new destination folder
-	new_filepath = "./encrypted_f/"
+	new_filepath = encrypt_output_folder
 	# create new filename 
 	# where `file_item` is already a path
 	# using os.path.basename(file_item) we get only the file's name
